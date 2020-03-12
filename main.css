@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+/*Global Elements Decoration*/
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+/*--------------------------*/
+
+.container{
+    max-width: 980px;
+}
+
+.columns{
+    display: flex;
+}
+
+.col{
+
+}
+
+/*Text Decoration*/
+.highlight{
+    color: #B7832F
+}
+.background-highlight{
+    color: white;
+    background-color: #312614;
+}
+/*---------------*/
