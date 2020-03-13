@@ -2,7 +2,8 @@
     box-sizing: border-box;
 }
 
-/*Global Elements Decoration*/
+/*  Typography  */
+
 h1{
     font-size: 3rem;
 }
@@ -11,31 +12,48 @@ h2{
     font-size: 1.5rem;
 }
 
+p{
+    margin-top: 0;
+}
+
+/*  Layout  */
+
 img{
     width: 100%;
-    max-width: 980px;
 }
-/*--------------------------*/
 
 .container{
     max-width: 980px;
     margin: 0 auto;
+    width: 95%;
 }
 
 .columns{
     display: flex;
+    margin: 1em 0;
 }
 
 .col{
 
 }
 
-/*Text Decoration*/
+.col-1{
+    width: 25%;
+}
+
+.col-2{
+    width: 50%;
+}
+
+.col-3{
+    width: 75%;
+}
+
 .highlight{
     color: #B7832F
 }
-.background-highlight{
-    color: white;
+.col-bg{
+    color: #FFF;
     background-color: #312614;
+    padding: 1em;
 }
-/*---------------*/
