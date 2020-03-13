@@ -10,10 +10,16 @@ h1{
 h2{
     font-size: 1.5rem;
 }
+
+img{
+    width: 100%;
+    max-width: 980px;
+}
 /*--------------------------*/
 
 .container{
     max-width: 980px;
+    margin: 0 auto;
 }
 
 .columns{
