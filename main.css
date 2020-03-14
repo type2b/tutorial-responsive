@@ -30,6 +30,7 @@ img{
 
 .columns{
     display: flex;
+    justify-content: space-between;
     margin: 1em 0;
 }
 
@@ -38,15 +39,15 @@ img{
 }
 
 .col-1{
-    width: 25%;
+    width: 20%;
 }
 
 .col-2{
-    width: 50%;
+    width: 45%;
 }
 
 .col-3{
-    width: 75%;
+    width: 70%;
 }
 
 .highlight{
@@ -56,4 +57,14 @@ img{
     color: #FFF;
     background-color: #312614;
     padding: 1em;
+}
+
+/* From a maximum size of 600 and smaller */
+@media (max-width: 600px){
+    .columns{
+        flex-direction: column;
+    }
+    .col{
+        width: 100%;
+    }
 }
